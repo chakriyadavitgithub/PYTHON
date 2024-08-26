@@ -1,2 +1,2 @@
 enames=["chakri","sonia","priya","zoya"]
-print(enames.index('chakri'))
+print(enames.index('priya'))
