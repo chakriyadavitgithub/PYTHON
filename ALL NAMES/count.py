@@ -48,9 +48,17 @@ users=[{"eid":1,"ename":"Orel","email":"obraferton0@abc.net.au","gender":"Female
 {"eid":48,"ename":"Kimberlee","email":"kclutten1b@gmpg.org","gender":"Female"},
 {"eid":49,"ename":"Bordy","email":"bpleace1c@privacy.gov.au","gender":"Male"},
 {"eid":50,"ename":"Crysta","email":"cgurney1d@chron.com","gender":"Female"}]
-#using for loop
+
+print(type(users))
+no_of_male_users=0
+no_of_female_users=0
 for user in users:
-    #print(user['ename'])
-    #print(user['eid'])
-    print(user['email'])
-    A
+    if user['gender'] == 'Male':
+        no_of_male_users = no_of_male_users+1
+    elif user['gender'] == 'Female':
+        no_of_female_users = no_of_female_users+1
+print(no_of_female_users)
+print(no_of_male_users)
+
+    
+
